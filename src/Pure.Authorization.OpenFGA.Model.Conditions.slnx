@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Pure.Authorization.OpenFGA.Model.Conditions.Tests/Pure.Authorization.OpenFGA.Model.Conditions.Tests.csproj" />
+  </Folder>
+  <Project Path="Pure.Authorization.OpenFGA.Model.Conditions/Pure.Authorization.OpenFGA.Model.Conditions.csproj" />
+</Solution>
