@@ -5,9 +5,19 @@
     <Nullable>enable</Nullable>
     <IsAotCompatible>true</IsAotCompatible>
     <LangVersion>latest</LangVersion>
-    <!--<EnablePackageValidation>true</EnablePackageValidation>-->
+    <EnablePackageValidation>true</EnablePackageValidation>
     <!--<PackageValidationBaselineVersion>x.x.x</PackageValidationBaselineVersion>-->
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference
+      Include="Pure.Authorization.OpenFGA.Model.Abstractions"
+      Version="0.1.0-preview.0.1.0"
+    />
+    <PackageReference Include="Pure.Primitives.Bool.Operations" Version="0.5.1" />
+    <PackageReference Include="Pure.Primitives.Char.Operations" Version="0.4.0" />
+    <PackageReference Include="Pure.Primitives.Number.Operations" Version="1.5.0" />
+    <PackageReference Include="Pure.Primitives.String.Operations" Version="1.7.0" />
+  </ItemGroup>
   <PropertyGroup>
     <PackageId>Pure.Authorization.OpenFGA.Model.Conditions</PackageId>
     <RootNamespace>Pure.Authorization.OpenFGA.Model.Conditions</RootNamespace>
@@ -17,6 +27,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/kudima03/Pure.Authorization.OpenFGA.Model.Conditions</PackageProjectUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Pure.Authorization.OpenFGA.Model.Conditions.Tests" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
