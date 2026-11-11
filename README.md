@@ -90,8 +90,8 @@ These OpenFGA rules are not checked, so a condition can hold for input that Open
 
 ## Dependencies
 
-- [`Pure.Authorization.OpenFGA.Model.Abstractions`](https://github.com/kudima03/Pure.Authorization.OpenFGA.Model.Abstractions) 0.1.0-preview.0.1.0 — OpenFGA authorization model domain interfaces
-- [`Pure.Primitives.Bool.Operations`](https://github.com/kudima03/Pure.Primitives.Bool.Operations) 0.5.1 — `And`, `Or`, `Not`
-- [`Pure.Primitives.String.Operations`](https://github.com/kudima03/Pure.Primitives.String.Operations) 1.7.0 — string equality and character conditions
-- [`Pure.Primitives.Number.Operations`](https://github.com/kudima03/Pure.Primitives.Number.Operations) 1.5.0 — length comparisons
-- [`Pure.Primitives.Char.Operations`](https://github.com/kudima03/Pure.Primitives.Char.Operations) 0.4.0 — control character detection
+- [`Pure.Authorization.OpenFGA.Model.Abstractions`](https://github.com/kudima03/Pure.Authorization.OpenFGA.Model.Abstractions) 0.1.0-preview.0.2.0 — OpenFGA authorization model domain interfaces
+- [`Pure.Primitives.Bool.Operations`](https://github.com/kudima03/Pure.Primitives.Bool.Operations) 0.6.0 — `And`, `Or`, `Not`
+- [`Pure.Primitives.String.Operations`](https://github.com/kudima03/Pure.Primitives.String.Operations) 1.8.0 — string equality and character conditions
+- [`Pure.Primitives.Number.Operations`](https://github.com/kudima03/Pure.Primitives.Number.Operations) 1.6.0 — length comparisons
+- [`Pure.Primitives.Char.Operations`](https://github.com/kudima03/Pure.Primitives.Char.Operations) 0.5.0 — control character detection
